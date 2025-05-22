@@ -48,16 +48,16 @@ Scalability for Complex Constraints: The approach can easily scale to handle mor
 
 Real-time Adaptation: The system's ability to generate new neighbor states and explore different configurations makes it adaptable to last-minute changes in room availability or professor schedules without restarting the process.
 
-## Usage
+### Usage
 
 ```bash
 python3 code.py
 ```
 
-## Dependencies
+### Dependencies
 * Python 3.x
 * Standard libraries
 
-## Future Enhancements
+### Future Enhancements
 * Add GUI using Tkinter or Flask
 * Add hard/soft constraint differentiation
