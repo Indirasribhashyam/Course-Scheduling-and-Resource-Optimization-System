@@ -47,3 +47,17 @@ Conflict Detection and Resolution: By using a validity check that detects confli
 Scalability for Complex Constraints: The approach can easily scale to handle more complex constraints, such as student preferences or course prerequisites, by modifying the heuristic function to accommodate additional rules.
 
 Real-time Adaptation: The system's ability to generate new neighbor states and explore different configurations makes it adaptable to last-minute changes in room availability or professor schedules without restarting the process.
+
+# Usage
+
+```bash
+python3 code.py
+```
+
+# Dependencies
+* Python 3.x
+* Standard libraries
+
+# Future Enhancements
+* Add GUI using Tkinter or Flask
+* Add hard/soft constraint differentiation
