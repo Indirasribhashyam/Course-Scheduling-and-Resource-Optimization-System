@@ -22,3 +22,9 @@ Total Cost: The total estimated cost f(n)=g(n)+h(n)f(n) = g(n) + h(n)f(n)=g(n)+h
 * Optimality: A* guarantees an optimal solution if the heuristic h(n)h(n)h(n) is admissible (never overestimates the true cost).
 
 * Applications: Widely used in AI, robotics, and game development for efficient navigation and resource management.
+
+## In this application, A* Search Algorithm Components are:
+1. g(self): Returns the number of satisfied constraints by counting courses with assigned rooms and time slots.
+2. h(self): Returns the number of unsatisfied constraints by counting courses without a room or time slot.
+3. f(self): Combines g(self) and h(self) to rank schedules. A* prioritizes schedules with the lowest f value.
+4. lt(self, other): Compares two Schedule objects based on their f() values for priority queue ordering.
